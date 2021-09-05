@@ -7,4 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/first")
 public class FirstController {
 
+	public String getName() {
+		
+		return "Welcome to Spring Boot";
+	}
 }
